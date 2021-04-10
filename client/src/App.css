@@ -1,0 +1,43 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: skyblue;
+}
+
+App {
+    width: 100%;
+    height: 100%;
+}
+
+.hide {
+    display: none !important;
+}
+
+.smallButton {
+    color: #111111;
+    background: transparent;
+    border: 2px solid #111111;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    margin: 8px auto;
+    width: 120px;
+    min-width: 50px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.smallButton:hover {
+    cursor: pointer;
+    background-color: #111111;
+    color: white;
+    text-decoration: none;
+}
+
+.duel:hover {
+    background-color: red;
+}
